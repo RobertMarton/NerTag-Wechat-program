@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button bindtap="bindSequence" class='type-btn'> 开始标注</button>
+    <button bindtap="bindRandom" class='type-btn'> 乱序标注 </button>
+    <button bindtap="bindFavorite" class='type-btn'> 我的收藏 </button>
+  </view>
+  <view class='right-footer' bindtap="about">?</view>
+</view>
+<!-- <button bindtap="getOpenid">通过云函数获取openid</button>-->
+
+<!-- <button bindtap="getData">通过云函数获取数据</button> 
+<button bindtap="shujuku">数据库api获取数据</button> -->
+
+<!-- <view wx:for="{{datalist}}" wx:key="item">
+  <view class="itemRoot">
+    <view>{{item.name}}</view>
+    <view>{{item._id}}</view>
+    <view>{{item.addr}}</view>
+  </view> -->
+
+<!-- </view> -->

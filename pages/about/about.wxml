@@ -1,0 +1,8 @@
+<!--pages/about/about.wxml-->
+<!-- <text>pages/about/about.wxml</text> -->
+
+<view class="container">
+  <view class="title">About</view>
+  <view class="paragraph">NerTag标注小程序一个用于众包标注的小程序，基于数据隐私保护原则，除标注工作外不允许外传数据。</view>
+  <view class="paragraph">NerTag包含基本数据标注功能，另外还包括收藏标注数据，乱序标注等功能供标注者使用。</view>
+</view>

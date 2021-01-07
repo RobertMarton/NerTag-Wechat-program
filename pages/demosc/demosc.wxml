@@ -1,0 +1,31 @@
+<view class="container">
+  <view>{{scTitle}}</view>
+
+  <view class="sc-empty-block">
+    <button class="empty-btn" wx:for="{{scEmptyBtns}}" wx:item="item" wx:key="key">{{item.text}}</button>
+  </view>
+  <view class="sc-empty-block">
+        <button bindtap="handleClickWord" data-w="{{item}}" class="sc-btn" wx:for="{{words}}" wx:item="item" wx:key="key">{{item}}</button>
+  </view>
+  <text selectable='true'>{{bookcode}}</text>
+  <button></button>
+  <view>普通选择器</view>
+<!--mode默认selector range数据源value选择的index bindchange事件监听-->
+  <picker mode="selector" range="{{array}}" value="{{index}}" bindchange="listenerPickerSelected">
+  <text>{{array[index]}}</text>
+  </picker>
+  <button bindlongpress ='copy' data-copy='{{value}}'>{{value}}</button>
+  <view class="page-section">
+    <view class="page-section-title">这是一个可以自动聚焦的textarea</view>
+    <view class="textarea-wrp">
+      <textarea bindinput="textInput" bindblur="bindTextAreaBlur" auto-focus="true" style="height: 3em" />
+        <text>{{info}}</text>
+    </view>
+  </view>
+  <view class="section">
+  <form bindsubmit="bindFormSubmit">
+    <textarea placeholder="form 中的 textarea" name="textarea"/>
+    <button form-type="submit"> 提交 </button>
+  </form>
+  </view>
+</view>

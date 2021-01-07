@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/yun/yun",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/demosc/demosc",
+    "pages/question/question",
+    "pages/about/about"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2E4A62",
+    "navigationBarTitleText": "NerTag",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

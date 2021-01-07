@@ -1,0 +1,8 @@
+<button bindtap="getData">获取云数据库数据</button>
+<view wx:for="{{datalist}}">
+  <view class="itemRoot">
+    <view>{{item.name}}</view>
+    <view>{{item._id}}</view>
+    <view>{{item.addr}}</view>
+  </view>
+</view>
