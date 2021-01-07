@@ -1,6 +1,7 @@
-# NerTag-Wechat-program
-🆕  NerTag Wechat program
 ### NerTag标注小程序说明
+
+[pic for some reason not load, can view this pdf](https://github.com/RobertMarton/NerTag-Wechat-program/blob/main/NerTag%E6%A0%87%E6%B3%A8%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%AF%B4%E6%98%8E.pdf)
+
 
 1. 开发
 
